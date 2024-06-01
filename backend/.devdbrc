@@ -1,0 +1,10 @@
+[
+  {
+    "type": "sqlite",
+    "path": "d:\\projects\\AMC\\web-app\\BACKEND\\database\\database.sqlite"
+  },
+  {
+    "type": "sqlite",
+    "path": "d:\\projects\\Device-Encrypter\\backend\\database\\database.sqlite"
+  }
+]
