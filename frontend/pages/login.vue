@@ -194,10 +194,11 @@
                   {{ msg }}
                 </span>
                 <v-btn
+                dark
                   :loading="loading"
                   @click="login"
-                  class="btn primary btn-black btn-block mt-1 mb-3 p-4 btntext"
-                  style="width: 100%; height: 48px"
+                  class="btn  btn-block mt-1 mb-3 p-4 "
+                  style="width: 100%; height: 48px; background: #6c2ac2"
                 >
                   Login
                 </v-btn>

@@ -227,5 +227,17 @@ export default {
 };
 </script>
 <style scoped>
-@import url("@/assets/tableStyles.css");
+/* tableStyles.scss or tableStyles.css */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 </style>
