@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Gate Barrier",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the gate barrier free from signs of corrosion, damage, or excessive wear?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

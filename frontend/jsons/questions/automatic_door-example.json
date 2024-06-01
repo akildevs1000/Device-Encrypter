@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Automatic Door Maintenance",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are automatic door sensors functioning properly, detecting movement and triggering door opening and closing?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

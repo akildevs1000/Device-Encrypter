@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Bulgur Alarm System",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all Bulgur Alarm sensors and detectors functioning properly?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

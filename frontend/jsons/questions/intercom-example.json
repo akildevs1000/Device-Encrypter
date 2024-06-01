@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Intercom",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all intercom units functioning properly, including audio and video communication features?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Job Type",
+    "align": "left",
+    "sortable": true,
+    "key": "work_type",
+    "value": "work_type",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Equipment Category",
+    "align": "left",
+    "sortable": true,
+    "key": "equipment_category.name",
+    "value": "equipment_category.name",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Before Attachment",
+    "align": "left",
+    "sortable": true,
+    "key": "before_attachment",
+    "value": "before_attachment",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "After Attachment",
+    "align": "left",
+    "sortable": true,
+    "key": "after_attachment",
+    "value": "after_attachment",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Summary",
+    "align": "left",
+    "sortable": true,
+    "key": "summary",
+    "value": "summary",
+    "filterable": true,
+    "filterSpecial": false,
+    "width": "300px"
+  },
+  {
+    "text": "Created Date",
+    "align": "left",
+    "sortable": true,
+    "key": "date",
+    "value": "date",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Action",
+    "align": "left",
+    "sortable": false,
+    "key": "options",
+    "value": "options"
+  }
+]

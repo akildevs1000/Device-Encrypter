@@ -1,0 +1,207 @@
+[
+  {
+    "heading": "Time Attendance",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all time attendance terminals functioning properly, including clocking in/out features and biometric verification (if applicable)?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is there any delay or inconsistency in recording employee attendance data?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are time attendance reports generated accurately and in a timely manner?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the time attendance system software up-to-date with the latest patches and security updates?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with connectivity between time attendance terminals and the central database?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any false entries or discrepancies in attendance records been investigated and resolved?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any signs of damage or wear on time attendance system components, such as terminals or card readers?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the time attendance system control panel in good condition, with no visible damage or malfunctioning components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are time attendance system user interfaces, such as software interfaces or mobile apps, functioning correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any issues with time attendance system power supply or electrical connections been identified and addressed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are time attendance system reports reviewed regularly for accuracy and completeness?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have time attendance system access levels and permissions been reviewed and updated as needed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any environmental factors, such as temperature or humidity, that could affect time attendance system components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have time attendance system manuals and documentation been kept up-to-date and readily available for reference?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any regulatory compliance requirements or industry standards that need to be followed for time attendance system maintenance?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any time attendance system components that are not working or malfunctioning been identified and scheduled for repair or replacement?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with time attendance system signal range or coverage?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any time attendance system software features, such as scheduling or overtime tracking, been tested for functionality?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are time attendance system backups, such as data backups or redundant servers, functioning correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any maintenance tasks, such as cleaning terminals or updating employee records, been performed according to schedule?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any security breaches or attempted breaches detected and addressed by the time attendance system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have time attendance system users been provided with clear instructions on how to use the system and report any issues?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any vulnerabilities or weaknesses in the time attendance system that need to be addressed through additional security measures or upgrades?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have users been surveyed or consulted for feedback on the time attendance system's performance and usability, and have any issues raised been addressed appropriately?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any service agreements or warranties for the time attendance system that need to be reviewed and updated as needed?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "heading": "Access Control System Maintenance",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all access control readers functioning properly, including card readers, keypads, or biometric scanners?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are access control credentials (cards, fobs, PIN codes) being recognized and granting appropriate access?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is there any evidence of unauthorized access or security breaches detected by the access control system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are access control system wiring and connections secure and free from damage or wear?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the access control system software up-to-date with the latest patches and security updates?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are access control system logs reviewed regularly for any anomalies or suspicious activity?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system user permissions and access levels been reviewed and updated as needed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with door locks or electronic strikes controlled by the access control system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the access control system integrated with other security systems, such as video surveillance or intrusion detection?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any access control system alarms or alerts been investigated and resolved?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any environmental factors, such as temperature or humidity, that could affect access control system components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system manuals and documentation been kept up-to-date and readily available for reference?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any regulatory compliance requirements or industry standards that need to be followed for access control system maintenance?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system components, such as readers and controllers, been tested for functionality?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any physical obstructions or obstacles that could interfere with access control system operation?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system backup batteries been tested and replaced if necessary?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are access control system user interfaces, such as software interfaces or mobile apps, functioning correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system access points been inspected for signs of tampering or damage?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with access control system signal range or coverage?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any access control system components that are not working or malfunctioning been identified and scheduled for repair or replacement?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have access control system users been provided with clear instructions on how to operate the system and report any issues?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any access control system service agreements or warranties been reviewed and updated as needed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any vulnerabilities or weaknesses in the access control system that need to be addressed through additional security measures or upgrades?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have users been surveyed or consulted for feedback on the access control system's performance and usability, and have any issues raised been addressed appropriately?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any maintenance tasks, such as cleaning readers or testing backup power sources, been performed according to schedule?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

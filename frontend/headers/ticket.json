@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Ref #",
+    "align": "left",
+    "filterable": true,
+    "key": "id",
+    "value": "id",
+    "filter_type": "text",
+    "field_type": "number"
+  },
+  {
+    "text": "Company",
+    "align": "left",
+    "sortable": true,
+    "key": "company",
+    "value": "company",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Title",
+    "align": "left",
+    "filterable": true,
+    "key": "title",
+    "value": "title",
+    "filter_type": "text",
+    "field_type": "string"
+  },
+  {
+    "text": "Asigned Schedule Date",
+    "align": "left",
+    "sortable": true,
+    "key": "schedule_date",
+    "value": "schedule_date",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  
+  {
+    "text": "Status",
+    "align": "left",
+    "filterable": true,
+    "key": "status",
+    "value": "status",
+    "filter_type": "dropdown",
+    "dropdownItems": [
+      { "id": "", "name": "Select All" },
+      { "id": "Open", "name": "Open" },
+      { "id": "In Progress", "name": "In Progress" },
+      { "id": "Pending", "name": "Pending" },
+      { "id": "Close", "name": "Close" }
+    ],
+    "field_type": "string"
+  },
+  {
+    "text": "Action",
+    "align": "left",
+    "filterable": false,
+    "key": "options",
+    "value": "options",
+    "filter_type": "",
+    "field_type": ""
+  }
+]

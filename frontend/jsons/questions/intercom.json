@@ -1,0 +1,207 @@
+[
+  {
+    "heading": "Intercom",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all intercom units functioning properly, including audio and video communication features?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Do tenants experience clear and consistent audio/video quality during intercom calls?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with the door release function, such as delays or malfunctions?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the entry codes or access control features working as intended for residents and authorized visitors?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have the intercom system's wiring and connections been inspected for any signs of damage or wear?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the main control panel of the intercom system in good condition, with no visible damage or malfunctioning components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any issues with the external doorbell or call buttons been addressed, ensuring they are responsive and reliable?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are any security features, such as camera surveillance or motion detection, operating correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have intercom system settings, such as volume levels and call forwarding options, been checked and adjusted if necessary?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have tenants been informed of any maintenance or troubleshooting procedures for the intercom system, and are they aware of how to report issues?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have regular maintenance tasks, such as cleaning the intercom units and testing backup power sources, been performed according to schedule?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any signs of vandalism or tampering with the intercom system components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any software updates or firmware upgrades for the intercom system been installed to ensure optimal performance and security?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with intercom communication between different units or between the intercom and management office?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have intercom system logs or call records been reviewed for any unusual activity or malfunctioning units?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the intercom system integrated with other building security systems, such as access control or CCTV cameras, and are they functioning properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any intercom units that are not working or malfunctioning been identified and scheduled for repair or replacement?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are intercom system cables and wiring properly organized and secured to prevent tripping hazards or damage?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have tenants been provided with clear instructions on how to operate the intercom system and troubleshoot common issues?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any physical obstructions or environmental factors, such as extreme temperatures or moisture, that could affect the intercom system's performance?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have intercom system manuals and documentation been kept up-to-date and readily available for reference?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with the intercom system's power supply, such as voltage fluctuations or power outages?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any false alarms or nuisance alerts from the intercom system been investigated and resolved?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any regulatory compliance requirements or industry standards that need to be followed for the maintenance of the intercom system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have tenants been surveyed or consulted for feedback on the intercom system's performance and usability, and have any issues raised been addressed appropriately?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

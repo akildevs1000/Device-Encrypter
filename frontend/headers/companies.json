@@ -1,0 +1,69 @@
+[
+  {
+    "text": "Company",
+    "align": "left",
+    "sortable": true,
+    "key": "logo",
+    "value": "logo",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Branch",
+    "align": "left",
+    "sortable": true,
+    "key": "branch",
+    "value": "branch",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Last Visit",
+    "align": "left",
+    "sortable": true,
+    "key": "last_visit",
+    "value": "last_visit",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Mobile",
+    "align": "left",
+    "sortable": true,
+    "key": "contact",
+    "value": "contact",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Equipement",
+    "align": "left",
+    "sortable": true,
+    "key": "equipement",
+    "value": "equipement",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Contract Expiry",
+    "align": "left",
+    "sortable": true,
+    "key": "equipement",
+    "value": "equipement",
+    "width": "150px",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Options",
+    "align": "left",
+    "sortable": false,
+    "key": "options",
+    "value": "options"
+  }
+]

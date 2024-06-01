@@ -1,0 +1,6 @@
+[
+  { "id": "", "name": "Select All" },
+  { "id": "High", "name": "High" },
+  { "id": "Medium", "name": "Medium" },
+  { "id": "Low", "name": "Low" }
+]

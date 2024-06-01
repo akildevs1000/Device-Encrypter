@@ -1,0 +1,46 @@
+[
+  {
+    "text": "Ref #",
+    "align": "left",
+    "sortable": true,
+    "key": "id",
+    "value": "id",
+    "filterable": true,
+    "filterSpecial": false
+  },
+
+  {
+    "text": "Company",
+    "align": "left",
+    "sortable": true,
+    "key": "company",
+    "value": "company",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Asigned Schedule Date",
+    "align": "left",
+    "sortable": true,
+    "key": "schedule_date",
+    "value": "schedule_date",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Status",
+    "align": "left",
+    "sortable": true,
+    "key": "status",
+    "value": "status",
+    "filterable": true,
+    "filterSpecial": false
+  },
+  {
+    "text": "Action",
+    "align": "left",
+    "sortable": false,
+    "key": "options",
+    "value": "options"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "", "name": "Select All" },
+  { "id": "Open", "name": "Open" },
+  { "id": "In Progress", "name": "In Progress" },
+  { "id": "Pending", "name": "Pending" },
+  { "id": "Close", "name": "Close" }
+]

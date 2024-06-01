@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Time Attendance System Maintenance",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all time attendance terminals functioning properly, including clocking in/out features and biometric verification (if applicable)?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

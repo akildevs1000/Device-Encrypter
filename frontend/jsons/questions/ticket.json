@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "Summary",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Any Spare parts has to be changed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Any Spare parts has to be changed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Any Spare parts has to be changed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Any Spare parts has to be changed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Any Spare parts has to be changed?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "heading": "Camera",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall physical inspection of the camera?",
+        "options": ["Excellent", "Good", "Poor"]
+        
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the camera lens focused and properly adjusted?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the property perimeter clearly displayed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the camera lens free from dust and marks?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the motion detection sensors working?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Do all camera functions such as zoom and pan work correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is there no foliage obscuring the view?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are cameras securely attached to the wall?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the day/night function of all cameras working properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the image quality of the WDR camera at the main entrance/exit?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all cameras properly labeled?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the motorized zoom camera functions working properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "What is the quality of the lift camera? Is visibility clear on all floor numbers?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "ANPR camera view angle and recognition function?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "What is the view angle of the ANPR camera, and does its recognition function work properly?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Recorder",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall Physical Inspection and Health status of NVR?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "What is the health condition & performance of the HDD?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Do all recorders have a minimum of 30 days of recording capacity?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all NVRS powered by UPS?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the NVR free from dust and marks?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the keyboard and mouse in good working condition?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the NVR's recorded video search/playback functionality good?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the labels on the NVR clear and accurate?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the date and time synchronized on all NVRs?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the NVR's online status accessible via web access and mobile app?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall Physical Inspection and Health status of UPS?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the client software working on all workstations?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the VMS/Client software properly connected to the NVR?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the IP addresses free from conflicts?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Cable",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are wirings free from any wear and tear and not exposed wires?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the cable dressed properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the transmission of sound clear and picture with no distortion?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all cat 6 connectors insulated from conduit and pull boxes?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there no loose wires?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the cables properly labelled?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the MDF and IDF cabinets free from dust?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Monitor",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the monitors showing clear picture? Brightness and contrast settings correctly adjusted?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all of your switches and individual equipment fully functioning?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all monitors and equipment free from dust and grime?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all cables leading from the equipment in good condition? No weak connections?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the time and date stamp correctly set?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all power connections and AC plugs not loose and in good working condition?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Video guard",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "General Health Condition of Video guard ?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Monitoring Room",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are monitors and workstations working?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the room temperature less than 22 degrees?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "What is the lighting condition for the monitoring room?",
+        "options": ["Good", "Poor", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall condition for the monitoring room?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Does the operator have good knowledge of the CCTV system?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the monitoring room physically inspected and free from dust?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the first operator maintaining logbooks with proper observations?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all operators wearing proper uniforms and displaying their SIRA IDs?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  },
+  {
+    "heading": "Network Switch",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "General visual checking / health condition of Network Switch?",
+        "options": ["Excellent", "Good", "Poor"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all the cables properly labeled?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all patch cables connected properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all network switches powered by UPS?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all unused network ports disabled?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the uplink port (Fiber Cable) terminated properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the Network switch free from dust and marks?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

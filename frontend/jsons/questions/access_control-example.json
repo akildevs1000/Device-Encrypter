@@ -1,0 +1,15 @@
+[
+  {
+    "heading": "Access Control",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Check the installation, location and siting of the equipment and devices against the system record",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

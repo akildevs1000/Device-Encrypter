@@ -1,0 +1,207 @@
+[
+  {
+    "heading": "Bulgur Alarm System",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are all Bulgur Alarm sensors and detectors functioning properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any false alarms from the Bulgur Alarm system been investigated and resolved?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any signs of damage or tampering with Bulgur Alarm system components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the Bulgur Alarm control panel in good condition, with no visible damage or malfunctioning components?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have Bulgur Alarm system batteries been checked and replaced if necessary?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with connectivity between Bulgur Alarm sensors and the control panel?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any software updates or firmware upgrades for the Bulgur Alarm system been installed to ensure optimal performance and security?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the Bulgur Alarm system integrated with other security systems, such as CCTV cameras or access control systems, and are they functioning properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have Bulgur Alarm system logs or event records been reviewed for any unusual activity or malfunctioning sensors?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any environmental factors, such as extreme temperatures or humidity, that could affect the Bulgur Alarm system's performance?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have Bulgur Alarm system manuals and documentation been kept up-to-date and readily available for reference?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any regulatory compliance requirements or industry standards that need to be followed for the maintenance of the Bulgur Alarm system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have Bulgur Alarm system cables and wiring been inspected for any signs of damage or wear?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with the Bulgur Alarm system's power supply, such as voltage fluctuations or power outages?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any Bulgur Alarm system components that are not working or malfunctioning been identified and scheduled for repair or replacement?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any Bulgur Alarm system sensors been tested for sensitivity and accuracy?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any physical obstructions or obstacles that could interfere with Bulgur Alarm system sensors?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have Bulgur Alarm system user interfaces, such as keypads or remote controls, been tested for functionality?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have users been provided with clear instructions on how to operate the Bulgur Alarm system and respond to alarm activations?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any maintenance tasks, such as cleaning sensors or testing backup batteries, been performed according to schedule?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any issues with Bulgur Alarm system signal range or coverage?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any security breaches or attempted intrusions been detected and addressed by the Bulgur Alarm system?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have any service agreements or warranties for the Bulgur Alarm system been reviewed and updated as needed?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any vulnerabilities or weaknesses in the Bulgur Alarm system that need to be addressed through additional security measures or upgrades?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have users been surveyed or consulted for feedback on the Bulgur Alarm system's performance and usability, and have any issues raised been addressed appropriately?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]

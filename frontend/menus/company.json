@@ -1,0 +1,25 @@
+[
+  {
+    "icon": "mdi-view-dashboard",
+    "title": "Dashboard",
+    "to": "/dashboard2",
+    "submenu": "dashboard",
+    "menu": "dashboard",
+    "module": "dashboard"
+  },
+  {
+    "icon": "mdi-file-document",
+    "title": "AMC",
+    "to": "/amc",
+    "menu": "amc",
+    "module": "amc"
+  },
+  {
+    "icon": "mdi-ticket",
+    "title": "Tickets",
+    "to": "/tickets",
+    "submenu": "tickets",
+    "menu": "tickets",
+    "module": "dashboard"
+  }
+]

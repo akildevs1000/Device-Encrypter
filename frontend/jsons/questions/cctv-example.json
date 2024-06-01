@@ -1,0 +1,28 @@
+[
+  {
+    "heading": "Camera",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall physical inspection of the camera?",
+        "options": ["Excellent", "Good", "Poor"]
+      }
+    ]
+  },
+  {
+    "heading": "Recorder",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Overall Physical Inspection and Health status of NVR?",
+        "options": ["Excellent", "Good", "Poor"]
+      }
+    ]
+  }
+]

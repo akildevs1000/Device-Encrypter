@@ -1,0 +1,95 @@
+[
+  {
+    "heading": "Gate Barrier",
+    "questions": [
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the gate barrier free from signs of corrosion, damage, or excessive wear?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Does the gate barrier open and close smoothly without any jerking or sticking?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are there any unusual noises coming from the motor or drive mechanism during operation?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Do the safety features such as obstacle detection sensors and emergency stop buttons function properly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the control panel of the gate barrier in good condition with no visible damage or loose connections?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Do remote control devices trigger the gate barrier reliably and consistently?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Are the communication systems (wired or wireless) between the gate barrier and control center functioning correctly?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Is the barrier arm free from damage, misalignment, or excessive wear on hinges, joints, and locking mechanisms?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have moving parts of the gate barrier, such as hinges, rollers, and tracks, been cleaned and lubricated to prevent friction?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Has the functionality of the backup power supply (if applicable) been tested to ensure it can operate during power outages?",
+        "options": ["Yes", "No", "N/A"]
+      },
+      {
+        "selectedOption": null,
+        "remarks": null,
+        "isRemarks": false,
+        "attachment_name": null,
+        "question": "Have maintenance records been reviewed, and any necessary servicing or repairs scheduled based on manufacturer recommendations or previous maintenance history?",
+        "options": ["Yes", "No", "N/A"]
+      }
+    ]
+  }
+]
