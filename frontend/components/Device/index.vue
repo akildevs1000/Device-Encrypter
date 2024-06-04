@@ -15,42 +15,24 @@
         ></v-toolbar
       >
       <v-card-text>
-        <v-container class="mt-4">
-          <!-- <v-row v-for="(item, index) in devices" :key="index">
-            <v-col cols="6">
-              <v-text-field
-                v-model="item.model_number"
-                dense
-                outlined
-                hide-details
-                label="Device Model *"
-              ></v-text-field>
-            </v-col>
-
-            <v-col cols="6">
-              <v-text-field
-                v-model="item.device_id"
-                dense
-                outlined
-                hide-details
-                label="Device Serial *"
-              ></v-text-field>
-            </v-col>
-          </v-row> -->
-          <v-row>
-            <v-col cols="12" class="text-rightd">
+        <v-container>
+          <v-row no-gutters>
+            <v-col cols="12" class="text-right">
               <v-icon @click="addItem" color="blue">
                 mdi-plus-circle-outline
               </v-icon>
-              <!-- <v-icon v-if="devices && devices.length > 1" @click="removeItem">
-                mdi-delete
-              </v-icon> -->
             </v-col>
+          </v-row>
+        </v-container>
+
+        <v-container>
+          <v-row>
             <v-col cols="12">
               <table>
                 <tr>
                   <th>Device Model</th>
                   <th>Device Serial</th>
+                  <th>Created At</th>
                   <th class="text-center">Action</th>
                 </tr>
                 <tr
@@ -75,6 +57,17 @@
                       label="Device Model *"
                     ></v-text-field>
                   </td>
+                  <td>
+                    <v-text-field
+                      v-if="displayItem.created_at"
+                      readonly
+                      v-model="displayItem.created_at"
+                      dense
+                      outlined
+                      hide-details
+                      label=""
+                    ></v-text-field>
+                  </td>
                   <td class="text-center">
                     <v-icon
                       color="primary"
@@ -92,30 +85,10 @@
             </v-col>
             <v-col cols="12" class="text-right">
               <v-btn color="grey" dark @click="close"> Close </v-btn>
-              <v-btn color="blue" dark @click="submit"> Submit </v-btn>
-
-              <!-- <v-btn color="blue" dark @click="Decrypt"> Decrypt </v-btn> -->
+              <v-btn color="blue" dark @click="submit" :loading="loading">
+                Submit
+              </v-btn>
             </v-col>
-            <!-- <v-col cols="12">
-              <pre>{{ item.devices }}</pre>
-            </v-col> -->
-            <!-- <v-col cols="12">
-              <v-card outlined style="overflow: scroll">
-                <v-card-title> Encrypted Value: </v-card-title>
-
-                <v-card-text>
-                  {{ encryptedData }}
-                </v-card-text>
-              </v-card>
-            </v-col> -->
-            <!-- <v-col cols="12">
-              <v-card outlined style="overflow: scroll">
-                <v-card-title> Decrypted Value: </v-card-title>
-                <v-card-text>
-                  {{ decryptedData }}
-                </v-card-text>
-              </v-card>
-            </v-col> -->
           </v-row>
         </v-container>
       </v-card-text>
@@ -124,6 +97,13 @@
 </template>
 <script>
 import { encryptData, decryptData } from "../../utils/encryption";
+
+let date = new Date();
+
+let d = date.getDate();
+let m = (date.getMonth() + 1).toString().padStart(2, "0");
+let y = date.getFullYear();
+let currentDate = d + "-" + m + "-" + y;
 
 export default {
   props: ["item"],
@@ -149,23 +129,26 @@ export default {
     };
   },
   async created() {
-    let devices = this.item.devices;
-
-    if (devices.length) {
-      this.devices = devices;
-    }
-
-    this.loading = true;
-    try {
-      await this.$axios.get("device", this.item.id);
-      this.close();
-      this.$emit("response", "Record has been inserted");
-    } catch (error) {
-      this.errorResponse = error?.response?.data?.message || "Unknown error";
-      this.loading = false;
-    }
+    await this.getDataFromApi();
   },
+
   methods: {
+    async getDataFromApi() {
+      this.loading = true;
+      try {
+        let { data } = await this.$axios.get("device", {
+          params: { company_id: this.item.id },
+        });
+
+        if (data.length) {
+          this.devices = data;
+        }
+        this.loading = false;
+      } catch (error) {
+        this.errorResponse = error?.response?.data?.message || "Unknown error";
+        this.loading = false;
+      }
+    },
     close() {
       this.dialog = false;
       this.loading = false;
@@ -178,6 +161,7 @@ export default {
         devices: this.devices.map((e) => ({
           model_number: e.model_number,
           device_id: e.device_id,
+          created_at: new Date(),
           company_id: this.item.id,
         })),
       };
@@ -185,22 +169,26 @@ export default {
       this.loading = true;
       try {
         await this.$axios.post("device", this.payload);
-        this.encryptedData = encryptData(this.devices);
-        const scriptContent = `@echo off\n\necho ${this.encryptedData} > output.txt`;
-        const blob = new Blob([scriptContent], { type: "text/plain" });
-        const downloadLink = document.createElement("a");
-        downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = "generate_output.bat";
-        downloadLink.style.display = "none"; // Hide the download link
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-        this.close();
+        await this.getDataFromApi();
+        await this.downloadFile();
         this.$emit("response", "Record has been inserted");
+        this.close();
       } catch (error) {
         this.errorResponse = error?.response?.data?.message || "Unknown error";
         this.loading = false;
       }
+    },
+    async downloadFile() {
+      this.encryptedData = encryptData(this.devices);
+      const scriptContent = `@echo off\n\necho ${this.encryptedData} > output.txt`;
+      const blob = new Blob([scriptContent], { type: "text/plain" });
+      const downloadLink = document.createElement("a");
+      downloadLink.href = URL.createObjectURL(blob);
+      downloadLink.download = "generate_output.bat";
+      downloadLink.style.display = "none"; // Hide the download link
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
     },
     Decrypt() {
       this.decryptedData = decryptData(this.encryptedData);
@@ -220,24 +208,9 @@ export default {
     removeItemByIndex(index) {
       this.devices.splice(index, 1);
     },
-    removeItem() {
-      this.devices.pop();
-    },
   },
 };
 </script>
 <style scoped>
-/* tableStyles.scss or tableStyles.css */
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
+@import url("../../assets/css/tableStyles.css");
 </style>

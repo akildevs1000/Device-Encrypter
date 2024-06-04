@@ -58,13 +58,10 @@ export default {
   },
   methods: {
     navigate(item) {
-      // Perform navigation based on item.route (e.g., using Vue Router)
-      console.log("Navigate to:", item.route);
       this.$router.push(item.route);
     },
     logout() {
-      console.log(this.$auth);
-      this.$axios.get(`/technician/logout`).then(({ res }) => {
+      this.$axios.get(`/logout`).then(({ res }) => {
         this.$auth.logout();
       });
     },

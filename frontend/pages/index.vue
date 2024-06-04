@@ -38,7 +38,10 @@
             </v-list-item>
             <v-list-item>
               <v-list-item-title>
-                <Device :item="item" @response="getDataFromApi" />
+                <Device
+                  :item="item"
+                  @response="getDataFromApi"
+                />
               </v-list-item-title>
             </v-list-item>
             <v-list-item>
@@ -72,100 +75,45 @@ export default {
     options: {},
     loading: false,
     response: "",
-    companies: [
-      {
-        name: "Akil Security",
-        number: "0554501483",
-        email: "akil@gmail.com",
-        location: "Dubai",
-      },
-      {
-        name: "SecureTech",
-        number: "0501234567",
-        email: "info@securetech.com",
-        location: "Abu Dhabi",
-      },
-      {
-        name: "SafeGuard Systems",
-        number: "0522345678",
-        email: "contact@safeguardsystems.ae",
-        location: "Sharjah",
-      },
-      {
-        name: "Guardian Security",
-        number: "0569876543",
-        email: "support@guardiansecurity.ae",
-        location: "Ajman",
-      },
-      {
-        name: "Defense Solutions",
-        number: "0541239876",
-        email: "sales@defensesolutions.ae",
-        location: "Ras Al Khaimah",
-      },
-      {
-        name: "Watchful Eye",
-        number: "0534567890",
-        email: "admin@watchfuleye.ae",
-        location: "Fujairah",
-      },
-    ],
+    companies: [],
     errors: [],
     headers: [
       {
         text: "Ref #",
-        align: "left",
-        sortable: true,
-        key: "id",
         value: "id",
-        filterable: true,
-        filterSpecial: false,
       },
       {
         text: "Name",
-        align: "left",
-        sortable: true,
-        key: "name",
         value: "name",
-        filterable: true,
-        filterSpecial: false,
       },
       {
         text: "Number",
-        align: "left",
-        sortable: true,
-        key: "number",
         value: "number",
-        filterable: true,
-        filterSpecial: false,
       },
       {
         text: "Email",
-        align: "left",
-        sortable: true,
-        key: "email",
         value: "email",
-        filterable: true,
-        filterSpecial: false,
       },
       {
         text: "Location",
-        align: "left",
-        sortable: true,
-        key: "location",
         value: "location",
-        filterable: true,
-        filterSpecial: false,
       },
-
+      {
+        text: "Total Devices",
+        value: "devices_count",
+      },
+      {
+        text: "Created At",
+        value: "created_at",
+      },
       {
         text: "Action",
         align: "center",
         sortable: false,
-        key: "options",
         value: "options",
       },
     ],
+    componentKey: 1,
   }),
 
   async created() {
@@ -182,7 +130,7 @@ export default {
   },
   methods: {
     getRandomId() {
-      return Math.floor(Math.random() * 1000000 + 1);
+      return ++this.componentKey;
     },
     async getDataFromApi() {
       this.loading = true;
