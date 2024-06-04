@@ -28,6 +28,9 @@ class ValidationRequest extends FormRequest
             'devices.*.model_number' => 'required|string',
             'devices.*.device_id' => 'required|string',
             'devices.*.company_id' => 'required|integer',
+
+            'devices.*.created_at' => 'required',
+
         ];
     }
 

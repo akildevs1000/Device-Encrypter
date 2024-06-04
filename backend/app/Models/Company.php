@@ -11,6 +11,10 @@ class Company extends Model
 
     protected $guarded = [];
 
+    protected $casts = [
+        "created_at" => "datetime:d-M-Y"
+    ];
+
     /**
      * Get all of the devices for the Company
      *

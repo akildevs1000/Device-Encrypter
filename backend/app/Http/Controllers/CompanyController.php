@@ -14,7 +14,7 @@ class CompanyController extends Controller
      */
     public function index()
     {
-        return Company::with("devices")->orderByDesc("id")->paginate(request("per_page", 10));
+        return Company::withCount("devices")->with("devices")->orderByDesc("id")->paginate(request("per_page", 10));
     }
 
     /**
