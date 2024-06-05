@@ -38,9 +38,13 @@
             </v-list-item>
             <v-list-item>
               <v-list-item-title>
-                <Device
-                  :item="item"
-                  @response="getDataFromApi"
+                <Device :item="item" @response="getDataFromApi" />
+              </v-list-item-title>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-title>
+                <BatchFileCreator
+                  :devices="item.devices"
                 />
               </v-list-item-title>
             </v-list-item>

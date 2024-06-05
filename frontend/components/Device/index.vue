@@ -148,8 +148,6 @@
   </v-dialog>
 </template>
 <script>
-import { encryptData, decryptData } from "../../utils/encryption";
-
 let date = new Date();
 
 let d = date.getDate();
@@ -215,7 +213,6 @@ export default {
       this.loading = false;
       this.errorResponse = null;
     },
-
     async submit() {
       this.payload = {
         company_id: this.item.id,
@@ -236,28 +233,12 @@ export default {
       try {
         await this.$axios.post("device", this.payload);
         await this.getDataFromApi();
-        await this.downloadFile();
         this.$emit("response", "Record has been inserted");
         this.close();
       } catch (error) {
         this.errorResponse = error?.response?.data?.message || "Unknown error";
         this.loading = false;
       }
-    },
-    async downloadFile() {
-      this.encryptedData = encryptData(this.devices);
-      const scriptContent = `@echo off\n\necho ${this.encryptedData} > output.txt`;
-      const blob = new Blob([scriptContent], { type: "text/plain" });
-      const downloadLink = document.createElement("a");
-      downloadLink.href = URL.createObjectURL(blob);
-      downloadLink.download = "generate_output.bat";
-      downloadLink.style.display = "none"; // Hide the download link
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-      document.body.removeChild(downloadLink);
-    },
-    Decrypt() {
-      this.decryptedData = decryptData(this.encryptedData);
     },
     addItem() {
       let json = {
