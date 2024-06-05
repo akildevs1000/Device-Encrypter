@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="900">
+  <v-dialog v-model="dialog" width="1300">
     <template v-slot:activator="{ on, attrs }">
       <div v-bind="attrs" v-on="on">
         <v-icon color="blue" small> mdi-cellphone-text </v-icon>
@@ -15,7 +15,7 @@
         ></v-toolbar
       >
       <v-card-text>
-        <v-container>
+        <v-container fluid>
           <v-row no-gutters>
             <v-col cols="12" class="text-right">
               <v-icon @click="addItem" color="blue">
@@ -24,74 +24,126 @@
             </v-col>
           </v-row>
         </v-container>
-
-        <v-container>
-          <v-row>
-            <v-col cols="12">
-              <table>
-                <tr>
-                  <th>Device Model</th>
-                  <th>Device Serial</th>
-                  <th>Created At</th>
-                  <th class="text-center">Action</th>
-                </tr>
-                <tr
-                  v-for="(displayItem, displayIndex) in devices"
-                  :key="displayIndex"
-                >
-                  <td>
-                    <v-text-field
-                      v-model="displayItem.model_number"
-                      dense
-                      outlined
-                      hide-details
-                      label="Device Model *"
-                    ></v-text-field>
-                  </td>
-                  <td>
-                    <v-text-field
-                      v-model="displayItem.device_id"
-                      dense
-                      outlined
-                      hide-details
-                      label="Device Model *"
-                    ></v-text-field>
-                  </td>
-                  <td>
-                    <v-text-field
-                      v-if="displayItem.created_at"
-                      readonly
-                      v-model="displayItem.created_at"
-                      dense
-                      outlined
-                      hide-details
-                      label=""
-                    ></v-text-field>
-                  </td>
-                  <td class="text-center">
-                    <v-icon
-                      color="primary"
-                      v-if="displayIndex > 0"
-                      @click="removeItemByIndex(displayIndex)"
-                    >
-                      mdi-delete
-                    </v-icon>
-                  </td>
-                </tr>
-              </table>
-            </v-col>
-            <v-col cols="12" v-if="errorResponse">
-              <span class="red--text">{{ errorResponse }}</span>
-            </v-col>
-            <v-col cols="12" class="text-right">
-              <v-btn color="grey" dark @click="close"> Close </v-btn>
-              <v-btn color="blue" dark @click="submit" :loading="loading">
-                Submit
-              </v-btn>
-            </v-col>
-          </v-row>
-        </v-container>
       </v-card-text>
+
+      <v-container fluid>
+        <v-row>
+          <v-col cols="12">
+            <table>
+              <tr>
+                <td><small>Timezone</small></td>
+                <td><small>Function</small></td>
+                <td><small>Type</small></td>
+                <td><small>Model</small></td>
+                <td><small>Serial</small></td>
+                <td><small>Created At</small></td>
+                <td class="text-center"><small>Action</small></td>
+              </tr>
+              <tr
+                v-for="(displayItem, displayIndex) in devices"
+                :key="displayIndex"
+              >
+                <td>
+                  <v-autocomplete
+                    :hide-details="true"
+                    v-model="displayItem.utc_time_zone"
+                    placeholder="Time Zone"
+                    outlined
+                    dense
+                    label="Timezone *"
+                    :items="getTimezones()"
+                    item-value="key"
+                    item-text="text"
+                  ></v-autocomplete>
+                </td>
+                <td>
+                  <v-autocomplete
+                    :hide-details="true"
+                    v-model="displayItem.function"
+                    placeholder="Function"
+                    outlined
+                    dense
+                    label="Function *"
+                    :items="[
+                      { id: 'auto', name: 'Auto' },
+                      { id: 'In', name: 'In' },
+                      { id: 'Out', name: 'Out' },
+                    ]"
+                    item-value="id"
+                    item-text="name"
+                  ></v-autocomplete>
+                </td>
+                <td>
+                  <v-autocomplete
+                    :hide-details="true"
+                    v-model="displayItem.device_type"
+                    placeholder="Type"
+                    outlined
+                    dense
+                    label="Type *"
+                    :items="[
+                      { id: 'all', name: 'All(Attendance and Access)' },
+                      { id: 'Attendance', name: 'Attendance' },
+                      { id: 'Access Control', name: 'Access Control' },
+                    ]"
+                    item-value="id"
+                    item-text="name"
+                  ></v-autocomplete>
+                </td>
+                <td>
+                  <v-autocomplete
+                    :hide-details="true"
+                    v-model="displayItem.model_number"
+                    placeholder="Time Zone"
+                    outlined
+                    dense
+                    label="Device Model *"
+                    :items="[`OX-866`, `OX-886`, `OX-966`, `OX-900`]"
+                  ></v-autocomplete>
+                </td>
+                <td>
+                  <v-text-field
+                    v-model="displayItem.device_id"
+                    dense
+                    outlined
+                    hide-details
+                    label="Device Model *"
+                  ></v-text-field>
+                </td>
+                <td>
+                  <v-text-field
+                    v-if="displayItem.created_at"
+                    readonly
+                    v-model="displayItem.created_at"
+                    dense
+                    outlined
+                    hide-details
+                    label=""
+                  ></v-text-field>
+                </td>
+                <td class="text-center">
+                  <v-icon
+                    color="primary"
+                    v-if="displayIndex > 0"
+                    @click="removeItemByIndex(displayIndex)"
+                  >
+                    mdi-delete
+                  </v-icon>
+                </td>
+              </tr>
+            </table>
+          </v-col>
+          <v-col cols="12" v-if="errorResponse">
+            <span class="red--text">{{ errorResponse }}</span>
+          </v-col>
+          <v-col cols="12" class="text-right">
+            <v-btn color="grey" dark @click="close"> Close </v-btn>
+            <v-btn color="blue" dark @click="submit" :loading="loading">
+              Submit
+            </v-btn>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-card>
   </v-dialog>
 </template>
@@ -114,13 +166,13 @@ export default {
       decryptedData: null,
       devices: [
         {
-          model_number: "",
-          device_id: "",
           name: "Default Name",
-          status_id: 1,
+          utc_time_zone: "Asia/Dubai",
+          function: "auto",
+          device_type: "all",
+          model_number: "OX-866",
+          device_id: "",
           company_id: 1,
-          ip: "0.0.0.0",
-          port: "0000",
         },
       ],
       payload: {},
@@ -133,6 +185,15 @@ export default {
   },
 
   methods: {
+    getTimezones() {
+      let timezones = require("../../jsons/utc_timezones.json");
+      return Object.keys(timezones).map((key) => ({
+        offset: timezones[key].offset,
+        time_zone: timezones[key].time_zone,
+        key: key,
+        text: key + " - " + timezones[key].offset,
+      }));
+    },
     async getDataFromApi() {
       this.loading = true;
       try {
@@ -159,8 +220,13 @@ export default {
       this.payload = {
         company_id: this.item.id,
         devices: this.devices.map((e) => ({
+          utc_time_zone: e.utc_time_zone,
+          function: e.function,
+          device_type: e.device_type,
+
           model_number: e.model_number,
           device_id: e.device_id,
+
           created_at: new Date(),
           company_id: this.item.id,
         })),
@@ -195,13 +261,13 @@ export default {
     },
     addItem() {
       let json = {
-        model_number: "",
-        device_id: "",
         name: "Default Name",
-        status_id: 1,
+        utc_time_zone: "Asia/Dubai",
+        function: "auto",
+        device_type: "all",
+        model_number: "OX-866",
+        device_id: "",
         company_id: 1,
-        ip: "0.0.0.0",
-        port: "0000",
       };
       this.devices.push(json);
     },

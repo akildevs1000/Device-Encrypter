@@ -28,7 +28,17 @@
                 dense
                 outlined
                 hide-details
-                label="Name *"
+                label="Company Name *"
+              ></v-text-field>
+            </v-col>
+
+            <v-col cols="12">
+              <v-text-field
+                v-model="item.contact_person_name"
+                dense
+                outlined
+                hide-details
+                label="Contact Person Name *"
               ></v-text-field>
             </v-col>
 
@@ -38,7 +48,7 @@
                 dense
                 outlined
                 hide-details
-                label="Number *"
+                label="Phone Number *"
               ></v-text-field>
             </v-col>
             <v-col cols="12">
@@ -63,13 +73,7 @@
               <span class="red--text">{{ errorResponse }}</span>
             </v-col>
             <v-col cols="12" class="text-right">
-              <v-btn
-                small
-                color="grey"
-                class="white--text"
-                dark
-                @click="close"
-              >
+              <v-btn small color="grey" class="white--text" dark @click="close">
                 Close
               </v-btn>
               <v-btn
@@ -94,10 +98,11 @@ export default {
   data() {
     return {
       item: {
-        name: "test",
-        number: "test",
-        email: "test",
-        location: "test",
+        name: "",
+        contact_person_name: "",
+        number: "",
+        email: "",
+        location: "",
       },
       dialog: false,
       loading: false,

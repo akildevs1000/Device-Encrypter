@@ -83,11 +83,15 @@ export default {
         value: "id",
       },
       {
-        text: "Name",
+        text: "Company Name",
         value: "name",
       },
       {
-        text: "Number",
+        text: "Contact Person Name",
+        value: "contact_person_name",
+      },
+      {
+        text: "Phone Number",
         value: "number",
       },
       {

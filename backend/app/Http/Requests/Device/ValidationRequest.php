@@ -31,6 +31,10 @@ class ValidationRequest extends FormRequest
 
             'devices.*.created_at' => 'required',
 
+            'devices.*.utc_time_zone' => 'required|string',
+            'devices.*.function' => 'required|string',
+            'devices.*.device_type' => 'required|string',
+
         ];
     }
 
@@ -45,6 +49,11 @@ class ValidationRequest extends FormRequest
             'devices.*.device_id.string' => 'The device ID must be a string for each device.',
             'devices.*.company_id.required' => 'The company ID is required for each device.',
             'devices.*.company_id.integer' => 'The company ID must be an integer for each device.',
+
+            'devices.*.utc_time_zone.required' => 'The timezone required for each device.',
+            'devices.*.function.required' => 'The function required for each device.',
+            'devices.*.device_type.required' => 'The device_type required for each device.',
+
         ];
     }
 }

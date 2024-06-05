@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Company\ValidationRequest;
 use App\Models\Company;
+use App\Models\Device;
 
 class CompanyController extends Controller
 {
@@ -51,6 +52,8 @@ class CompanyController extends Controller
     public function destroy(Company $company)
     {
         $company->delete();
+
+        Device::where("company_id", $company->id)->delete();
 
         return response()->noContent();
     }
