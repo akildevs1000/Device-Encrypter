@@ -31,6 +31,7 @@
           <v-col cols="12">
             <table>
               <tr>
+                <td><small>Name</small></td>
                 <td><small>Timezone</small></td>
                 <td><small>Function</small></td>
                 <td><small>Type</small></td>
@@ -43,6 +44,15 @@
                 v-for="(displayItem, displayIndex) in devices"
                 :key="displayIndex"
               >
+                <td>
+                  <v-text-field
+                    v-model="displayItem.name"
+                    dense
+                    outlined
+                    hide-details
+                    label="Device Name *"
+                  ></v-text-field>
+                </td>
                 <td>
                   <v-autocomplete
                     :hide-details="true"
@@ -217,6 +227,8 @@ export default {
       this.payload = {
         company_id: this.item.id,
         devices: this.devices.map((e) => ({
+          id: e.id,
+          name: e.name,
           utc_time_zone: e.utc_time_zone,
           function: e.function,
           device_type: e.device_type,

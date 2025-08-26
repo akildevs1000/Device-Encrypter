@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Device\ValidationRequest;
@@ -27,9 +26,22 @@ class DeviceController extends Controller
     {
         $data = $request->validated();
 
-        Device::where("company_id", request("company_id", 0))->delete();
+        $ids = collect($data["devices"])->pluck('id')->filter();
 
-        return Device::insert($data["devices"]);
+        // Get already existing IDs
+        $existingIds = Device::whereIn('id', $ids)->pluck('id')->toArray();
+
+        // Filter out devices with existing IDs
+        $newDevices = collect($data["devices"])
+            ->whereNotIn('id', $existingIds)
+            ->values()
+            ->all();
+
+        if (! empty($newDevices)) {
+           Device::insert($newDevices);
+        }
+
+        return response()->json(['message' => 'Devices stored successfully']);
     }
 
     /**

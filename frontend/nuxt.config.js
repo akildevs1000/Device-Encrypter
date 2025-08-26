@@ -156,9 +156,4 @@ export default {
     host: process.env.LOCAL_IP,
     port: process.env.LOCAL_PORT,
   },
-
-  env: {
-    BACKEND_ABSOLUTE_URL: process.env.BACKEND_ABSOLUTE_URL,
-
-  },
 };

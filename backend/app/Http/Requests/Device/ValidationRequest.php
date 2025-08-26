@@ -26,6 +26,8 @@ class ValidationRequest extends FormRequest
         return [
             'devices' => 'required|array',
             'devices.*.model_number' => 'required|string',
+            'devices.*.id' => 'nullable',
+            'devices.*.name' => 'required',
             'devices.*.device_id' => 'required|string',
             'devices.*.company_id' => 'required|integer',
 
