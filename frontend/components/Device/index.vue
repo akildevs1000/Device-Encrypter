@@ -108,7 +108,14 @@
                     outlined
                     dense
                     label="Device Model *"
-                    :items="[`OX-866`, `OX-886`, `OX-966`, `OX-900`]"
+                    :items="[
+                      `OX-866`,
+                      `OX-886`,
+                      `OX-966`,
+                      `OX-900`,
+                      `OX-745`,
+                      `OX-945`,
+                    ]"
                   ></v-autocomplete>
                 </td>
                 <td>
