@@ -12,17 +12,14 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('license:check')
             ->daily()
-            ->withoutOverlapping()
-            // ->onOneServer() // enable if you have multiple servers + shared cache
-            ->appendOutputTo(storage_path('logs/license-check.log'));
+            ->withoutOverlapping();
 
         $schedule->call(function () {
             Log::info('Scheduler heartbeat OK', ['time' => now()->toDateTimeString()]);
         })
         ->everyMinute()
         ->name('scheduler-heartbeat')
-        ->withoutOverlapping()
-        ->appendOutputTo(storage_path('logs/scheduler-heartbeat.log'));
+        ->withoutOverlapping();
     }
 
     protected function commands(): void
