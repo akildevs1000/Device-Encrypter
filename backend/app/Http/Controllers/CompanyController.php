@@ -15,7 +15,21 @@ class CompanyController extends Controller
      */
     public function index()
     {
-        return Company::withCount("devices")->with("devices")->orderByDesc("id")->paginate(request("per_page", 10));
+        $query = Company::withCount('devices')
+            ->with('devices')
+            ->orderByDesc('id');
+
+        if ($search = trim(request('search'))) {
+            $query->where(function ($q) use ($search) {
+                $q->where('name', 'like', "{$search}%")
+                    ->orWhere('contact_person_name', 'like', "{$search}%")
+                    ->orWhere('number', 'like', "{$search}%")
+                    ->orWhere('email', 'like', "{$search}%")
+                    ->orWhere('location', 'like', "{$search}%");
+            });
+        }
+
+        return $query->paginate(request('per_page', 10));
     }
 
     /**
