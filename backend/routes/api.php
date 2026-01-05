@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LicenseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,5 @@ Route::get('/logout', [AuthController::class, 'logout'])->middleware('auth:sanct
 
 Route::apiResource('company', CompanyController::class);
 Route::apiResource('device', DeviceController::class);
+Route::get('validate-license', [LicenseController::class, "validateLicense"]);
+

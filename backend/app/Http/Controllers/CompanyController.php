@@ -52,7 +52,11 @@ class CompanyController extends Controller
      */
     public function update(ValidationRequest $request, Company $company)
     {
-        $company->update($request->validated());
+        $data = $request->validated();
+
+        $data["is_used"] = 0;
+
+        $company->update($data);
 
         return $company;
     }
