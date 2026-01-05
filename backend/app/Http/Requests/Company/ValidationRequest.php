@@ -28,7 +28,13 @@ class ValidationRequest extends FormRequest
             "contact_person_name" => "required|min:3|max:50",
             "number"              => "required|min:3|max:20",
             "email"               => "required|min:5|max:100",
-            "location"            => "required|min:5|max:150",
+            "location"            => "nullable|min:5|max:150",
+
+            'expiry_date' => ['required', 'date'],
+            'license_key' => ['required', 'string', 'max:255'],
+
+            'status' => ['nullable'],
+            'machine_id' => ['nullable'],
         ];
     }
 }
