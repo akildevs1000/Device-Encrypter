@@ -70,7 +70,16 @@ class LicenseController extends Controller
             'license_key' => ['required', 'string'],
         ]);
 
-        $company = Company::where('license_key', $data['license_key'])->first();
+        $company = Company::where('license_key', $data['license_key'])->first([
+            "contact_person_name",
+            "email",
+            "expiry_date",
+            "license_key",
+            "location",
+            "name",
+            "number",
+            "status",
+        ]);
 
         if (!$company) {
             return response()->json([
