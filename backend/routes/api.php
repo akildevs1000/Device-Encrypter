@@ -22,4 +22,5 @@ Route::get('/logout', [AuthController::class, 'logout'])->middleware('auth:sanct
 Route::apiResource('company', CompanyController::class);
 Route::apiResource('device', DeviceController::class);
 Route::get('validate-license', [LicenseController::class, "validateLicense"]);
+Route::get('get-license', [LicenseController::class, "getLicense"]);
 

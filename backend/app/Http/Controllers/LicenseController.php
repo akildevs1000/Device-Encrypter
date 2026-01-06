@@ -63,4 +63,26 @@ class LicenseController extends Controller
             ],
         ], 200);
     }
+
+    public function getLicense(Request $request)
+    {
+        $data = $request->validate([
+            'license_key' => ['required', 'string'],
+        ]);
+
+        $company = Company::where('license_key', $data['license_key'])->first();
+
+        if (!$company) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Invalid license key',
+            ], 401);
+        }
+
+        return response()->json([
+            'success' => true,
+            'message' => 'License activated',
+            'data' => $company,
+        ], 200);
+    }
 }
