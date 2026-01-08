@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\Company\ValidationRequest;
 use App\Models\Company;
 use App\Models\Device;
+use Carbon\Carbon;
 
 class CompanyController extends Controller
 {
@@ -54,11 +55,21 @@ class CompanyController extends Controller
     {
         $data = $request->validated();
 
-        $data["is_used"] = 0;
+        $data['is_used'] = 0;
+
+        // If expiry_date exists and is greater than today, set status = active
+        if (!empty($data['expiry_date']) && Carbon::parse($data['expiry_date'])->isFuture()) {
+            $data['status'] = 'active';
+        }
+
+        // Optional: mark expired if date is past
+        if (!empty($data['expiry_date']) && Carbon::parse($data['expiry_date'])->isPast()) {
+            $data['status'] = 'expired';
+        }
 
         $company->update($data);
 
-        return $company;
+        return $company->fresh();
     }
 
     /**
