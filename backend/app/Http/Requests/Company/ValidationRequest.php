@@ -31,7 +31,7 @@ class ValidationRequest extends FormRequest
             "location"            => "nullable|min:5|max:150",
 
             'expiry_date' => ['nullable', 'date'],
-            'license_key' => ['nullable', 'string', 'max:255'],
+            'license_key' => ['nullable', 'string'],
 
             'status' => ['nullable'],
             'machine_id' => ['nullable'],
